@@ -1,0 +1,33 @@
+.whatsapp-number {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: rotate(-90deg);
+    z-index: 999;
+    font-size: 1.6rem;
+    font-weight: 700;
+   
+    /* height: 100vh; */
+    margin-right: 97%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+   
+  }
+  
+  .whatsapp-number a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+  
+  .whatsapp-number a:hover {
+   color: #666;
+  }
+  
+  .whatsapp-number span {
+    display: block;
+  }
